@@ -20,6 +20,7 @@ class Transfer
       receiver.balance += amount
     else
       puts "rejected"
+    end
   end
 
 end
