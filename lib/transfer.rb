@@ -18,6 +18,7 @@ class Transfer
     if sender.balance > amount
       sender.balance -= amount
       receiver.balance += amount
+      self.status = "complete"
     else
       puts "rejected"
     end
