@@ -24,6 +24,7 @@ class Transfer
     else
       @status = "Transaction rejected. Please check your account balance."
     end
+    binding.pry
   end
 
 end
